@@ -1,0 +1,11 @@
+{
+    "Boss01":{
+        "attr":[5],
+        "skill1":"Bristle",
+        "hp":5,
+        "buff":{
+            "buff1":"Catapult",
+            "buff2":"Shield"
+        }
+    }
+}

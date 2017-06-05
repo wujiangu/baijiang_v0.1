@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1136" height="485" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="talentGroup" width="1136" height="485" x="0" y="0">
+        <!--<e:Image id="blood1" source="talent_kuangfeng_png" x="48" y="14"/>
+        <e:Image id="blood2" source="talent_xieneng_png" x="252" y="14"/>
+        <e:Image id="blood3" source="talent_mengji_png" x="93" y="119"/>
+        <e:Image id="blood4" source="talent_kaituozhe_png" x="208" y="119"/>
+        <e:Image id="blood5" source="talent_shoulie_png" x="47" y="225"/>
+        <e:Image id="blood6" source="talent_honghuangzhili_png" x="253" y="225"/>
+        <e:Image id="blood7" source="talent_wuchuketao_png" x="151" y="332"/>
+        <e:Image id="crit1" source="talent_qinkeli_png" x="415" y="12"/>
+        <e:Image id="crit2" source="talent_shengminghuiliu_png" x="621" y="14"/>
+        <e:Image id="crit3" source="talent_xunjierufeng_png" x="462" y="119"/>
+        <e:Image id="crit4" source="talent_qiling_png" x="574" y="119"/>
+        <e:Image id="crit5" source="talent_siwangbiaoji_png" x="413" y="225"/>
+        <e:Image id="crit6" source="talent_guiji_png" x="622" y="225"/>
+        <e:Image id="crit7" source="talent_xukongshandianhongliu_png" x="524" y="332"/>
+        <e:Image id="recover1" source="talent_yuhe_png" x="777" y="14"/>
+        <e:Image id="recover2" source="talent_hanwei_png" x="988" y="12"/>
+        <e:Image id="recover3" source="talent_shengyan_png" x="827" y="120"/>
+        <e:Image id="recover4" source="talent_yunzhishou_png" x="941" y="120"/>
+        <e:Image id="recover5" source="talent_renciguanghuan_png" x="779" y="225"/>
+        <e:Image id="recover6" source="talent_biyouzhiguang_png" x="989" y="225"/>
+        <e:Image id="recover7" source="talent_dadidezhufu_png" x="886" y="330"/>-->
+		<e:Label text="吸血：" x="48" y="441"/>
+		<e:Label id="bloodText" text="21/25" x="143" y="441"/>
+		<e:Label text="暴击：" x="415" y="441"/>
+		<e:Label id="critText" text="0" x="510" y="441"/>
+		<e:Label text="回复：" x="777" y="441"/>
+		<e:Label id="recoverText" text="0" x="877" y="441"/>
+		<e:Label id="pageText" text="0" x="559.5" y="12"/>
+    </e:Group>
+</e:Skin>

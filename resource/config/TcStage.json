@@ -1,0 +1,7 @@
+[
+    {"id":1, "count":1, "hp":5, "type":"monster01"},
+    {"id":2, "count":2, "hp":1, "type":"monster01"},
+    {"id":3, "count":3, "hp":2, "type":"monster01"},
+    {"id":4, "count":3, "hp":2, "type":"monster01"},
+    {"id":5, "count":1, "hp":5, "type":"boss"}
+]

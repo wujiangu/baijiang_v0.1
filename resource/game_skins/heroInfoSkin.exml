@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="511" height="545" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="left_Image" x="135.5" y="272.5" scaleX="0.9" scaleY="0.9" source="hero1_gray_png" anchorOffsetX="120" anchorOffsetY="262"/>
+	<e:Image id="right_Image" x="375.5" y="270.7" scaleX="0.9" scaleY="0.9" source="hero3_gray_png" anchorOffsetX="120" anchorOffsetY="260"/>
+	<e:Image id="mid_Image" x="301.5" y="325.5" source="hero2_light_png" scaleX="1" scaleY="1" anchorOffsetX="120" anchorOffsetY="262"/>
+
+
+
+	<e:Button id="btn_left" label="" x="85.5" y="461" scaleX="-1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0013_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btn_right" label="" x="424.5" y="461">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0013_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+</e:Skin>

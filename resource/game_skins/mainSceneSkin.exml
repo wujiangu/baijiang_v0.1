@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_0002_png" x="0" y="0" width="1136" height="640"/>
+	<e:Button id="btn_ready" label="准备出战" x="448" y="217.36" anchorOffsetX="0" width="240" anchorOffsetY="0" height="92">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0001_png" width.down="90%" height.down="90%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="-1.5" verticalCenter="-3" fontFamily="Microsoft YaHei" size="30" textColor="0xfde286" bold="true" size.down="27"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Button id="btn_equip" label="装备" x="816" y="168" anchorOffsetX="0" width="240" height="92" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0001_png" source.down="button_0001_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="-1.5" verticalCenter="-3" fontFamily="Microsoft YaHei" size="30" textColor="0xFDE286" bold="true"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Button id="btn_talent" label="天赋" x="816" y="271" width="240" height="92" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0001_png" source.down="button_0001_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="-1.5" verticalCenter="-3" fontFamily="Microsoft YaHei" size="30" textColor="0xFDE286" bold="true"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Button id="btn_setting" label="设置" x="816" y="373" width="240" height="92" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0001_png" source.down="button_0001_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="-1.5" verticalCenter="-3" fontFamily="Microsoft YaHei" size="30" textColor="0xFDE286" bold="true"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Button id="btn_shop" label="商城" x="448" y="334.53" width="240" height="92">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0001_png" width.down="90%" height.down="90%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="-1.5" verticalCenter="-3" fontFamily="Microsoft YaHei" size="30" textColor="0xFDE286" bold="true" size.down="27"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	
+	<e:Group id="popupGroup" width="1136" height="640" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image source="mask_png" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="0,0,1,1" anchorOffsetX="0" width="1136" anchorOffsetY="0" height="640"/>
+		<e:Image source="popmenu_0001_png" x="248" y="128"/>
+		<e:Label text="音乐" x="378" y="290"/>
+		<e:Label text="音效" x="378" y="359"/>
+		<e:Button id="btn_applicate" label="应用" x="480" y="419">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_0006_png" source.down="button_0004_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" bold="true"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_close" label="" horizontalCenter="248.5" verticalCenter="-141.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_0005_png" width.down="80%" height.down="80%" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:HSlider id="music_Hslider" width="234.4" height="30.4" x="475.6" y="289" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:HSlider id="sound_Hslider" width="234.4" height="30.4" x="475.6" y="362.8" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

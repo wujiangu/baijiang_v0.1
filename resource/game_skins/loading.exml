@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="bg_0001_png"/>
+
+	<e:Image x="194" y="567" source="denglu_0004_png"/>
+	<e:Image id="loadingImg" x="194" y="567" anchorOffsetX="0" width="742" source="denglu_0005_png"/>
+	<e:Label id="persent" text="10" x="589" y="513" fontFamily="SimHei" size="24" bold="true" textColor="0xffffff" visible="false"/>
+	<e:Label text="抵制不良游戏 拒绝盗版游戏 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活" x="174" y="594" fontFamily="Microsoft YaHei" size="21" bold="true" textColor="0x595959"/>
+	<e:Image x="276.74" y="29.77" source="logo_png" anchorOffsetX="0" width="600" anchorOffsetY="0" height="284"/>
+</e:Skin>

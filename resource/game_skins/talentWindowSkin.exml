@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="tianfu_0001_png" x="0" y="0" width="1136" height="640"/>
+	<e:Label text="吸血：" x="53" y="593" textColor="0x545454" fontFamily="Microsoft YaHei" bold="true" anchorOffsetX="0" width="218" anchorOffsetY="0" height="38"/>
+	<e:Label text="暴击：" x="404" y="593" fontFamily="Microsoft YaHei" bold="true" anchorOffsetX="0" width="218" anchorOffsetY="0" height="38" textColor="0x545454"/>
+	<e:Label text="回复：" x="768.5" y="593" fontFamily="Microsoft YaHei" bold="true" anchorOffsetX="0" width="218" anchorOffsetY="0" height="38" textColor="0x545454"/>
+	<e:ToggleButton id="btn_page0" label="2" x="213.5" y="93.5" width="48" height="48">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0006_png" source.down="button_0007_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor.down="0xFFFFFF" bold="true" fontFamily="Microsoft YaHei" textColor="0x111111"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="btn_page2" label="3" x="272" y="93.5" width="48" height="48">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0006_png" source.down="button_0007_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor.down="0xFFFFFF" bold="true" fontFamily="Microsoft YaHei" textColor="0x111111"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:ToggleButton id="btn_page1" label="1" x="155.5" y="93.5" width="48" height="48">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0006_png" source.down="button_0007_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor.down="0xFFFFFF" bold="true" fontFamily="Microsoft YaHei" textColor="0x111111"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:Label text="天赋页" x="23" y="100" fontFamily="Microsoft YaHei" bold="true" size="35" textColor="0x0c0c0c"/>
+
+
+
+	<e:Button id="btn_add" label="" x="328" y="93.5" width="48" height="48">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0008_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btn_reset" label="重置" x="952" y="12.5" anchorOffsetX="0" width="168" anchorOffsetY="0" height="76">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0004_png" source.down="button_0006_png"/>
+	<e:Label id="labelDisplay" bold="true" fontFamily="Microsoft YaHei" size="35" textColor="0x260303" x="-720673" y="-6788" anchorOffsetX="-720720" anchorOffsetY="-6804" width="-105" height="-21"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label text="能量点：" x="699" y="43" fontFamily="Microsoft YaHei" bold="true" textColor="0x707070"/>
+	<e:Label id="lab_power" text="99999" x="824" y="36.5" fontFamily="Microsoft YaHei" textColor="0xffd375" size="39"/>
+	<e:Button id="btn_back" label="" x="21.5" y="20" width="92" height="48">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0005_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="pageGroup" width="1136" height="485" x="0" y="154">
+	</e:Group>
+	<e:Group id="popupGroup" width="1136" height="640" x="0" y="0" visible="false">
+		<e:Image source="mask_png" x="0" y="0" width="1136" height="640"/>
+		<e:Image source="popmenu_0001_png" x="248" y="114.5"/>
+		<e:Label id="lab_title" text="购买天赋" textAlign="center" horizontalCenter="0.5" verticalCenter="-156" fontFamily="Microsoft YaHei"/>
+		<e:Button id="btn_close" label="" x="796" y="140.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_0005_png" width.down="80%" height.down="80%" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_certain" label="确定" x="480" y="414">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_0006_png" source.down="button_0004_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x000000" bold="true"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lab_detail" text="购买天赋需要花费50玉石" horizontalCenter="1.5" verticalCenter="-1.5" size="25" fontFamily="Microsoft YaHei" textColor="0xCEB6A2"/>
+		<e:Label text="是否继续？" horizontalCenter="1" verticalCenter="33" size="25" fontFamily="Microsoft YaHei" textColor="0xceb6a2"/>
+	</e:Group>
+	<e:Group id="skillPopupGroup" width="1136" height="640" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image source="mask_png" x="0" y="0" width="1136" height="640"/>
+		<e:Image source="tianfu_0005_png" x="388.5" y="104"/>
+		<e:Button id="btn_closeDetail" label="" x="733.5" y="114">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_0005_png" width.down="80%" height.down="80%" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lab_name" text="名字" x="427" y="130.5" fontFamily="Microsoft YaHei" size="30"/>
+		<e:Label text="等级：" x="427" y="174.5" size="22" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lab_lv" text="1/5" x="515" y="174.5" size="22" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lab_condition" text="需要升到5级" x="428" y="208.5" fontFamily="Microsoft YaHei" size="22"/>
+		<e:Label id="lab_skillDetail" text="对敌方英雄造成伤害时，回复伤害的10%血量。" x="428" y="243" fontFamily="Microsoft YaHei" size="22" multiline="true" width="275" lineSpacing="10"/>
+		<e:Button id="btn_upgrade" label="升级" x="479" y="398">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_0006_png" source.down="button_0004_png" source.disabled="button_0004_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lab_consume" text="需要升到5级" fontFamily="Microsoft YaHei" size="22" horizontalCenter="0.5" verticalCenter="169" textColor="0xffd375"/>
+	</e:Group>
+
+
+</e:Skin>

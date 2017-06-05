@@ -1,0 +1,6 @@
+[
+    {"id":1, "name":"\u53CC\u80A1\u5251", "lv":20, "star":4, "unlock":1, "attr":[500, 1200, 20, 30], "starAttr":[{"attr1":100, "attr2":200, "attr3":400, "btnImage":"equip_0003_png", "color":"0xCEB6A2", "name":"reset"}]},
+    {"id":2, "name":"\u9752\u9F99\u5043\u6708\u5200", "lv":25, "star":5, "unlock":2, "attr":[500, 1400, 20, 20], "starAttr":[{"attr1":100, "attr2":200, "attr3":400, "btnImage":"equip_0003_png", "color":"0xCEB6A2", "name":"reset"}, {"attr1":200, "attr2":300, "btnImage":"equip_0003_png", "color":"0xCEB6A2", "name":"reset"}]},
+    {"id":3, "name":"\u4E08\u516B\u86C7\u77DB", "lv":10, "star":4, "unlock":0, "attr":[600, 200, 50, 20], "starAttr":[]},
+    {"id":4, "name":"\u65B9\u5929\u753B\u621F", "lv":10, "star":6, "unlock":0, "attr":[1000, 1500, 50, 30], "starAttr":[]}
+]

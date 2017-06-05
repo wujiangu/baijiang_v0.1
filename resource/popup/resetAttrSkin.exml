@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mask_png" x="0" y="0" width="1136" height="640"/>
+	<e:Image source="popmenu_0002_png" x="65.5" y="44" height="548" width="996"/>
+	<e:Button id="btn_back" label="" x="979" y="72" width="56" height="60">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0009_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image x="257.5" y="168" source="equip_0005_png" height="116" width="620"/>
+	<e:Image id="img_star" x="298" y="206" width="36" height="36" source="star_0001_png"/>
+	<e:Label id="lab_attr1" text="攻击力+100" x="381" y="181" fontFamily="Microsoft YaHei" size="23" bold="true"/>
+	<e:Label id="lab_attr2" text="攻击力+100" x="381" y="213.5" fontFamily="Microsoft YaHei" size="23" bold="true"/>
+	<e:Label id="lab_attr3" text="攻击力+100" x="381" y="246" fontFamily="Microsoft YaHei" size="23" bold="true"/>
+	<e:Image source="iconbg_0001_png" x="256" y="293" height="100" width="100"/>
+	<e:Label text="洗练符" x="273" y="398" size="22" fontFamily="Microsoft YaHei" textColor="0xed9d0e" bold="true"/>
+	<e:Button id="btn_minus" label="" x="386" y="319.5" width="48" height="48">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0018_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btn_plus" label="" x="532" y="320.5" width="48" height="48">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0008_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="lab_itemCount" text="2" y="325" size="33" fontFamily="Microsoft YaHei" horizontalCenter="-85.5" textColor="0x969696" bold="true"/>
+	<e:Label text="当前稀有属性重置几率为30%" x="406.5" y="431" size="22" fontFamily="Microsoft YaHei" bold="true" textColor="0x565656"/>
+	<e:Button id="btn_buy" label="购买" x="648.5" y="306.5" height="76" width="168">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0019_png" source.down="button_0019_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="-4.5" verticalCenter="-3" textColor="0x243104" bold="true" fontFamily="Microsoft YaHei" size="33"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btn_reset" label="重置" x="406.5" y="479" height="76" width="288">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0011_png" source.down="button_0011_png"/>
+	<e:Label id="labelDisplay" horizontalCenter="-2.5" verticalCenter="-4" textColor="0x240404" bold="true" fontFamily="Microsoft YaHei" size="33"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

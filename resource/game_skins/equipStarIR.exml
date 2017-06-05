@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="587" height="129" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="equip_0005_png" x="0" y="0" anchorOffsetX="0" width="620" anchorOffsetY="0" height="116"/>
+	<e:Image id="img_star" x="44" y="42" source="{data.starImg}"/>
+	<e:Label id="lab_buff1" x="133.34" y="17.33" size="25" fontFamily="Microsoft YaHei" text="{data.attr1}" textColor="0x676767"/>
+	<e:Label id="lab_buff2" x="133.34" y="47.33" size="25" fontFamily="Microsoft YaHei" text="{data.attr2}" textColor="0x676767"/>
+	<e:Label id="lab_buff3" x="133.34" y="77.33" size="25" fontFamily="Microsoft YaHei" text="{data.attr3}" textColor="0x676767"/>
+	<e:Image id="btn_reset" width="96" height="69" name="{data.name}" source="{data.btnImage}" horizontalCenter="219.5" verticalCenter="-5"/>
+
+
+</e:Skin>

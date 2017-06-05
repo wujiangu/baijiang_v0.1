@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="equip_0001_png" width="1136" height="640"/>
+	<e:Button id="btn_back" label="" x="21.5" y="20" width="92" height="48">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0005_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+	<e:Image id="img_equip" width="466" height="328" x="24" y="162" anchorOffsetX="0" anchorOffsetY="0" source="iconbg_0001_png"/>
+	<e:Button id="btn_change" label="洗练" x="142" y="559" anchorOffsetX="0" width="168" anchorOffsetY="0" height="76">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0015_png" source.down="button_0006_png"/>
+			<e:Label id="labelDisplay" verticalCenter="-5" fontFamily="Microsoft YaHei" bold="true" size="35" x="47" anchorOffsetX="1" anchorOffsetY="1" textColor="0xac7841" text="洗练"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btn_upgrade" label="升级" x="310" y="559" anchorOffsetX="0" width="168" anchorOffsetY="0" height="76">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0004_png" source.down="button_0004_png"/>
+			<e:Label id="labelDisplay" bold="true" fontFamily="Microsoft YaHei" size="35" textColor="0x260303" x="-720673" y="-6788" anchorOffsetX="-720720" anchorOffsetY="-6804" width="-105" height="-21"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label text="武器洗练" x="738" y="98" fontFamily="Microsoft YaHei" bold="true" size="36" textColor="0x0c0c0c"/>
+	<e:Group id="starGroup" width="331" height="45" x="24" y="505" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label id="lab_name" text="方天画戟+5" x="144" y="1" fontFamily="Microsoft YaHei" textColor="0xffd375" bold="true"/>
+
+
+
+
+
+
+
+
+	</e:Group>
+	<e:Label text="Lv：" x="343" y="451.5" fontFamily="Microsoft YaHei" textColor="0xceb6a2" size="25" bold="true"/>
+	<e:Label id="lab_lv" text="10/25" x="394" y="451.5" size="25" fontFamily="Microsoft YaHei" bold="true"/>
+	<e:Scroller id="starScroll" width="587" height="417" x="528" y="173" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="starList" width="100%" height="100%"/>
+	</e:Scroller>
+	<e:Button label="兵器库" x="947" y="6" width="168" height="76">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0014_png" source.down="button_0015_png"/>
+			<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" bold="true" x="30" y="16" anchorOffsetX="0" anchorOffsetY="1" size="35" textColor="0x130b0b"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="detailGroup" width="1136" height="640" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="mask_png" x="0" y="0" width="1136" height="640"/>
+		<e:Image source="equip_0006_png" x="388.5" y="77"/>
+		<e:Button id="btn_closeDetail" label="" x="722" y="72">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_0009_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Label id="lab_name1" text="武器名称" x="411.5" y="92" textColor="0xff9900" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label text="等级：" x="411.5" y="132" size="23" textColor="0xceb6a2" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lab_equipLv" text="1/100" x="486.5" y="132" textColor="0xCEB6A2" size="23" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label text="装备者：" x="411.5" y="165" size="21" textColor="0xff000a" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lab_equiptor" text="xx" x="512.5" y="166" textColor="0xFF000A" size="21" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label text="+" x="411.5" y="195" size="21" textColor="0xffffff" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lab_attr1" text="500 攻击力" x="441.5" y="195" size="21" textColor="0xFFFFFF" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label text="+" x="411.5" y="224" textColor="0xFFFFFF" size="21" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lab_attr2" text="2000 生命值" x="441.5" y="224" textColor="0xFFFFFF" size="21" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label text="+" x="411.5" y="253" textColor="0xFFFFFF" size="21" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lab_attr3" text="90 移速" x="440" y="253" textColor="0xFFFFFF" size="21" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label text="+" x="412" y="282" textColor="0xFFFFFF" size="21" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label id="lab_attr4" text="30% 暴击" x="441" y="282" textColor="0xFFFFFF" size="21" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label text="精炼：" x="415" y="321.5" size="21" bold="true" fontFamily="Microsoft YaHei" textColor="0xbc0da2"/>
+		<e:Label text="+" x="413" y="350" size="25" bold="true" fontFamily="Microsoft YaHei" textColor="0xbc0da2"/>
+		<e:Label text="+" x="413" y="378" size="25" bold="true" fontFamily="Microsoft YaHei" textColor="0xbc0da2"/>
+		<e:Label text="+" x="413" y="406" size="25" bold="true" fontFamily="Microsoft YaHei" textColor="0xbc0da2"/>
+		<e:Label text="+" x="413" y="433" size="25" bold="true" fontFamily="Microsoft YaHei" textColor="0xbc0da2"/>
+		<e:Label text="+" x="413" y="461" size="25" bold="true" fontFamily="Microsoft YaHei" textColor="0xbc0da2"/>
+		<e:Label text="+" x="413" y="489" size="25" bold="true" fontFamily="Microsoft YaHei" textColor="0xbc0da2"/>
+	</e:Group>
+
+</e:Skin>

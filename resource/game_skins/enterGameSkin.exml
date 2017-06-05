@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_0001_png" x="0" y="0" width="1136" height="640"/>
+	<e:Button id="btn_begin" label="进入游戏" x="435.74" y="385.5" anchorOffsetX="0" width="240" height="92" anchorOffsetY="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0001_png" width.down="90%" height.down="90%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" verticalCenter="-3.5" horizontalCenter="0" fontFamily="Microsoft YaHei" bold="true" x="62.02" size.down="24" size="28" textColor="0xfde286"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btn_rank" label="排行榜" x="424.37" y="460.5" anchorOffsetX="0" width="240" height="92" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0001_png" source.down="button_0001_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="-1.5" verticalCenter="-5" fontFamily="Microsoft YaHei" bold="true" textColor="0xFDE286"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image x="276.74" y="29.77" source="logo_png" anchorOffsetX="0" width="600" anchorOffsetY="0" height="284"/>
+	<e:Button id="btn_qq" label="QQ登陆" x="428" y="453" anchorOffsetX="0" width="282" height="75" anchorOffsetY="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="denglu_0002_png" source.down="denglu_0002_png" width.down="80%" height.down="80%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" verticalCenter="-3.5" fontFamily="Microsoft YaHei" bold="true" x="110" size.down="24" textColor="0x000000" size="28"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="btn_weixin" label="微信登陆" x="112" y="453" anchorOffsetX="0" width="282" height="75" anchorOffsetY="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="denglu_0001_png" source.down="denglu_0001_png" width.down="80%" height.down="80%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" bold="true" x="106" size.down="24" y="20" textColor="0x000000" size="28"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+<e:Image x="194" y="567" source="denglu_0004_png"/>
+<e:Image id="loadingImg" x="194" y="567" anchorOffsetX="0" width="742" source="denglu_0005_png"/>
+<e:Label text="抵制不良游戏 拒绝盗版游戏 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活" x="174" y="594" fontFamily="Microsoft YaHei" size="21" bold="true" textColor="0x595959"/>
+</e:Skin>

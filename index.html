@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>百将斩</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="landscape"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/experimental/experimental.js" src-release="libs/modules/experimental/experimental.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js" src-release="libs/modules/dragonBones/dragonBones.min.js"></script>
+	<script egret="lib" src="libs/modules/md5/md5.js" src-release="libs/modules/md5/md5.min.js"></script>
+	<script egret="lib" src="libs/modules/particle/particle.js" src-release="libs/modules/particle/particle.min.js"></script>
+	<script egret="lib" src="libs/modules/nest/nest.js" src-release="libs/modules/nest/nest.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <script egret="lib" src="polyfill/promise.js" src-release="polyfill/promise.min.js"></script>
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/game/Object/BaseGameObject.js"></script>
+	<script egret="game" src="bin-debug/game/Buff/BuffBase.js"></script>
+	<script egret="game" src="bin-debug/game/Machine/BaseStateMachine.js"></script>
+	<script egret="game" src="bin-debug/game/Object/Enermy.js"></script>
+	<script egret="game" src="bin-debug/game/Skill/SkillBase.js"></script>
+	<script egret="game" src="bin-debug/Base.js"></script>
+	<script egret="game" src="bin-debug/localStorage/LocalStorage.js"></script>
+	<script egret="game" src="bin-debug/component/TalentIR.js"></script>
+	<script egret="game" src="bin-debug/enterGameScene/EnterGameScene.js"></script>
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/game/Buff/BuffData.js"></script>
+	<script egret="game" src="bin-debug/game/Buff/buffs/ContinuousInjury.js"></script>
+	<script egret="game" src="bin-debug/game/Buff/buffs/Dodge.js"></script>
+	<script egret="game" src="bin-debug/game/Buff/buffs/Shield.js"></script>
+	<script egret="game" src="bin-debug/game/Buff/buffs/SwordDance.js"></script>
+	<script egret="game" src="bin-debug/game/Buff/buffs/UnableMove.js"></script>
+	<script egret="game" src="bin-debug/game/DragonBones/DragonBonesArmature.js"></script>
+	<script egret="game" src="bin-debug/game/DragonBones/DragonBonesArmatureContainer.js"></script>
+	<script egret="game" src="bin-debug/game/DragonBones/DragonBonesFactory.js"></script>
+	<script egret="game" src="bin-debug/game/GameData.js"></script>
+	<script egret="game" src="bin-debug/game/Machine/BaseState.js"></script>
+	<script egret="game" src="bin-debug/Common.js"></script>
+	<script egret="game" src="bin-debug/game/Machine/IdleState.js"></script>
+	<script egret="game" src="bin-debug/game/Machine/StateType.js"></script>
+	<script egret="game" src="bin-debug/component/BattleSceneCom.js"></script>
+	<script egret="game" src="bin-debug/game/Object/Boss.js"></script>
+	<script egret="game" src="bin-debug/component/CycleSlide.js"></script>
+	<script egret="game" src="bin-debug/game/Object/Hero.js"></script>
+	<script egret="game" src="bin-debug/game/Object/Monster.js"></script>
+	<script egret="game" src="bin-debug/component/EquipStarIR.js"></script>
+	<script egret="game" src="bin-debug/game/Skill/SkillData.js"></script>
+	<script egret="game" src="bin-debug/game/Skill/skills/Bristle.js"></script>
+	<script egret="game" src="bin-debug/game/Skill/skills/Imprisoned.js"></script>
+	<script egret="game" src="bin-debug/game/Skill/skills/TaijiPalm.js"></script>
+	<script egret="game" src="bin-debug/heroInfo/heroInfoPanel.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/component/ScrollView.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/mainScene/BattleScene.js"></script>
+	<script egret="game" src="bin-debug/mainScene/equipDialog.js"></script>
+	<script egret="game" src="bin-debug/mainScene/equipInfoDialog.js"></script>
+	<script egret="game" src="bin-debug/mainScene/MainScene.js"></script>
+	<script egret="game" src="bin-debug/mainScene/ReadyDialog.js"></script>
+	<script egret="game" src="bin-debug/mainScene/ShopDialog.js"></script>
+	<script egret="game" src="bin-debug/mainScene/TalentDialog.js"></script>
+	<script egret="game" src="bin-debug/manager/ConfigManager.js"></script>
+	<script egret="game" src="bin-debug/manager/GameEvent.js"></script>
+	<script egret="game" src="bin-debug/manager/GameLayerManager.js"></script>
+	<script egret="game" src="bin-debug/manager/ObjectPool.js"></script>
+	<script egret="game" src="bin-debug/manager/PopupManager.js"></script>
+	<script egret="game" src="bin-debug/manager/SceneManager.js"></script>
+	<script egret="game" src="bin-debug/manager/TimerManager.js"></script>
+	<script egret="game" src="bin-debug/manager/UserData.js"></script>
+	<script egret="game" src="bin-debug/net/NetConnect.js"></script>
+	<script egret="game" src="bin-debug/net/NetUI.js"></script>
+	<script egret="game" src="bin-debug/popup/BattleFailPop.js"></script>
+	<script egret="game" src="bin-debug/popup/BattlePausePop.js"></script>
+	<script egret="game" src="bin-debug/popup/ChangeEquipPop.js"></script>
+	<script egret="game" src="bin-debug/popup/EquipUpgradePop.js"></script>
+	<script egret="game" src="bin-debug/popup/resetEquipAttrPop.js"></script>
+	<script egret="game" src="bin-debug/popup/UnlockStarLvPop.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/utils/Animations.js"></script>
+	<script egret="game" src="bin-debug/utils/MathUtils.js"></script>
+	<script egret="game" src="bin-debug/utils/NativeApi.js"></script>
+	<script egret="game" src="bin-debug/utils/sensitiveWords/Dictionary.js"></script>
+	<script egret="game" src="bin-debug/utils/sensitiveWords/SensitiveWordFilter.js"></script>
+	<script egret="game" src="bin-debug/utils/sensitiveWords/TreeNode.js"></script>
+	<script egret="game" src="bin-debug/utils/TipsUtils.js"></script>
+	<script egret="game" src="bin-debug/utils/Utils.js"></script>
+	<script egret="game" src="bin-debug/utils/utilsClass/LEvent.js"></script>
+	<script egret="game" src="bin-debug/utils/utilsClass/LListener.js"></script>
+	<!--game_files_end-->
+	<!--<script src="https://rawgit.com/kawanet/msgpack-lite/master/dist/msgpack.min.js"></script>-->
+	<script src="http://api.egret-labs.org/games/www/static/egreth5sdk.js"></script>
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="60"
+         data-content-width="1136"
+         data-content-height="640"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:20,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * }
+         **/
+        //  function pack (data) {
+        //      return msgpack.encode(data)
+        //  }
+        //  function unpack (data) {
+        //      return msgpack.decode(data)
+        //  }
+		 var isDebug = false;
+		 var RESOURCE = "";
+        egret.runEgret({renderMode:"webgl", audioType:0});
+    </script>
+</body>
+</html>

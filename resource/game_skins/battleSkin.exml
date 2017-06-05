@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+	<e:Image source="battle_0001_png" x="709" y="4" width="168" height="44"/>
+	<e:Image source="battle_0002_png" x="884" y="8.2" width="168" height="44"/>
+	<e:Image source="battle_0004_png" x="349.5" y="594.26" anchorOffsetX="0" width="456" anchorOffsetY="0" height="16"/>
+	<e:Image x="9" y="7" anchorOffsetX="0" width="196" anchorOffsetY="0" height="52" rotation="360" source="battle_0003_png"/>
+	<e:Image id="img_exp" x="65" y="50.14" anchorOffsetX="0" width="128" anchorOffsetY="0" height="4" rotation="360" source="battle_0012_png" visible="false"/>
+	<e:Image id="img_hp" x="65" y="47.18" anchorOffsetX="0" width="128" anchorOffsetY="0" height="8" rotation="360" source="battle_0011_png"/>
+	<e:Image id="img_killCount1" scale9Grid="80,0,565,16" x="349.5" y="594.26" anchorOffsetX="0" width="456" anchorOffsetY="0" height="16" source="battle_0010_png" visible="false"/>
+	<e:Image source="battle_0005_png" x="761.5" y="582.26" anchorOffsetX="0" width="44" anchorOffsetY="0" height="40" rotation="360"/>
+	<e:Image source="hero_0010_png" x="684.5" y="498" visible="false"/>
+	<e:Image source="hero_0010_png" x="831" y="498" visible="false"/>
+	<e:Image x="1021.2" y="525.5" anchorOffsetX="0" width="100" anchorOffsetY="0" height="100" source="battle_0006_png"/>
+	<e:Label id="lab_killCount" text="50/50" x="536.5" y="566.5" fontFamily="Microsoft YaHei" size="24" bold="true" textColor="0xfcf5e8"/>
+	<e:Label id="lab_lv" text="99" x="17.5" y="70.32" anchorOffsetX="0" width="27" size="15" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:Label id="lab_money" text="99999" y="12.5" size="27" fontFamily="Microsoft YaHei" textColor="0xe29828" bold="true" right="264"/>
+	<e:Label id="lab_soul" text="99999" y="14.2" size="27" fontFamily="Microsoft YaHei" textColor="0x36c9bc" bold="true" right="90"/>
+	<e:Button id="btn_pause" label="" x="1062.1" y="8.2" width="60" height="68">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0002_png" width.down="90%" height.down="90%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image id="img_skill1" source="" x="682" y="497" width="120" height="125" touchEnabled="false" visible="false"/>
+	<e:Image id="img_skill2" source="" x="831" y="497" width="120" height="125" visible="false"/>
+	<e:Image id="img_skill3" source="" x="980" y="497" width="120" height="125" visible="false"/>
+	<e:Button id="btn_skill" label="" x="1021.2" y="525.5" width="100" height="100">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="skill_16_png" width.down="80%" height.down="80%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="lab_name" text="貂蝉" x="68" y="16.2" fontFamily="Microsoft YaHei" size="23" bold="true" textColor="0xfffadc"/>
+	<e:Image id="img_skillMask" x="1021.25" y="524.5" width="100" height="100" source="skill_mask_png"/>
+	<e:Label id="lab_cdTime" text="1" y="555" horizontalCenter="502.5" fontFamily="Microsoft YaHei" bold="true" size="40"/>
+	<e:Image source="battle_0013_png" x="9" y="7"/>
+	<e:Label id="lab_stage" text="第一关" y="62.5" bold="true" fontFamily="Microsoft YaHei" size="40" horizontalCenter="0" textColor="0xfff8ea"/>
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mask_png" x="0" y="0" width="1136" height="640"/>
+	<e:Image x="107" y="30.5" width="916" height="584" source="battle_0008_png"/>
+
+	<e:Button id="btn_giveup" label="返回主界面" x="410" y="371" width="240" height="92">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0003_png" width.down="90%" height.down="90%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="-2.5" verticalCenter="-2" bold="true" textColor="0xb18653" fontFamily="Microsoft YaHei" size="25" size.down="22"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Button id="btn_reavival" label="复活" x="579" y="437" height="92" width="240" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_0001_png" source.down="button_0002_png"/>
+	<e:Label id="labelDisplay" horizontalCenter="-2.5" verticalCenter="-2" bold="true" fontFamily="Microsoft YaHei" textColor="0xfde286"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label text="获得物品：" x="240" y="276" fontFamily="Microsoft YaHei" bold="true" size="24" textColor="0x9e9e9e" visible="false"/>
+	<e:Group id="itemGroup" width="550" height="110" x="240" y="316" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+	</e:Group>
+</e:Skin>

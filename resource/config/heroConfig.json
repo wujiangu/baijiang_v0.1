@@ -1,0 +1,24 @@
+{
+    "diaochan":{
+        "attr":[],
+        "skill1":"Imprisoned",
+        "buff":[
+            {"name":"Shield", "id":4},
+            {"name":"SwordDance", "id":6}
+        ],
+        "animation":{
+            "active": "skill01",
+            "passive1_1":"skill02_01",
+            "passive1_2":"skill02_02",
+            "passive2_1":"skill03_01",
+            "passive2_2":"skill03_02"
+        }
+    },
+    "buxiaoman":{
+        "attr":[],
+        "skill1":"Bristle",
+        "buff":[
+            {"name":"Dodge", "id":5}
+        ]
+    }
+}
