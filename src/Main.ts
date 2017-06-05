@@ -153,10 +153,10 @@ class Main extends eui.UILayer {
         // this.test();
         var nodeGame = document.getElementById("game");
         Common.log(nodeGame);
-        SceneManager.enterGameScene = new EnterGameScene();
-        GameLayerManager.gameLayer().sceneLayer.addChild(SceneManager.enterGameScene);
-        // SceneManager.battleScene = new BattleScene();
-        // this.addChild(SceneManager.battleScene);
+        // SceneManager.enterGameScene = new EnterGameScene();
+        // GameLayerManager.gameLayer().sceneLayer.addChild(SceneManager.enterGameScene);
+        SceneManager.battleScene = new BattleScene();
+        this.addChild(SceneManager.battleScene);
     }
 
     private test():void {
