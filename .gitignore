@@ -1,0 +1,8 @@
+#egret IDE config file
+/.wing/*
+
+#debuf file
+/bin-debug/*
+
+#template file
+/template/*
