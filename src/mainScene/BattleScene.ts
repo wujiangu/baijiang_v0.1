@@ -138,8 +138,9 @@ class BattleScene extends Base {
         bg.scaleX = 3;
         bg.scaleY = 3;
         this.comboGroup.addChild(bg);
-        let comboText:egret.TextField = Utils.createText("连击", 20, 20, 26, 0x501414);
+        let comboText:egret.TextField = Utils.createText("连击", 20, 15, 26, 0x501414);
         comboText.bold = true;
+        comboText.fontFamily = "Microsoft YaHei";
         this.comboGroup.addChild(comboText);
 
         //位图字体
@@ -149,7 +150,7 @@ class BattleScene extends Base {
         this.comboCount.scaleY = 3;
         this.comboCount.font = font;
         this.comboCount.x = 100;
-        this.comboCount.y = 35;
+        this.comboCount.y = 30;
         this.comboCount.text = "0";
         this.comboGroup.addChild(this.comboCount);
         this.comboGroup.visible = false;
